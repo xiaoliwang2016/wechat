@@ -9,8 +9,10 @@ var fs = require('fs')
 
 const MediaModel = require('../model/media')
 
-
+//临时路径
 var baseApi = `https://api.weixin.qq.com/cgi-bin/media/upload`
+//永久路径
+// var baseApi = `https://api.weixin.qq.com/cgi-bin/material/add_material`
 
 //设置保存规则
 var storage = multer.diskStorage({
